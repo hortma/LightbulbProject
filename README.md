@@ -1,2 +1,2 @@
 # LightbulbProject
- Switch On/Off or Break it
+ Switch On/Off or Break it with custom-made lightbulb sprites.
