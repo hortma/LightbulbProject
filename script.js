@@ -32,6 +32,16 @@ function turnOff() {
     changeLightBulbAndButtons(params)
 }
 
+function mouseHover() {
+    let params = createParams("imgs/lightbulbTurnedOn.png", "#68443a", "#fff5ad", "#6c3f36")
+    changeLightBulbAndButtons(params)
+}
+
+function mouseOut() {
+    let params = createParams("imgs/lightbulbTurnedOff.png", "#2d1f3d", "#c8b8fa", "#4f366b")
+    changeLightBulbAndButtons(params)
+}
+
 function changeLightBulbAndButtons(params) {
     if (!broken) {
         lightbulb.src = params.image
